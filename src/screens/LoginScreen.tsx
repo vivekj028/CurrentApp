@@ -12,7 +12,7 @@ import {
 } from 'react-native';
 import Input from './Input';
 import {StackNavigationProp} from '@react-navigation/stack';
-import {RootStackParamList} from './types';
+import {RootStackParamList} from '../types/types';
 
 type LoginScreenNavigationProp = StackNavigationProp<
   RootStackParamList,
@@ -87,7 +87,7 @@ const LoginScreen: React.FC<Props> = ({navigation}) => {
     <SafeAreaView style={styles.container}>
       <View>
         <Image
-          source={require('../Images/logo1.png')}
+          source={require('../assets/Images/logo1.png')}
           style={styles.logo}
           resizeMode="contain"
         />

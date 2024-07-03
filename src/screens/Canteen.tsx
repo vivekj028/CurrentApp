@@ -4,7 +4,7 @@ import { Card } from 'react-native-paper';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { CartContext } from './CartContext';
 import { NavigationProp } from '@react-navigation/native';
-import { RootStackParamList, MenuOption, CanteenSection } from './types';
+import { RootStackParamList, MenuOption, CanteenSection } from '../types/types';
 
 type CanteenProps = {
   navigation: NavigationProp<RootStackParamList, 'Canteen'>;

@@ -7,7 +7,7 @@ const DrawerContent: React.FC<DrawerContentComponentProps> = (props) => {
   return (
     <DrawerContentScrollView {...props}>
       <View style={styles.drawerHeader}>
-        <Image source={require('../Images/logo1.png')} style={styles.logo} />
+        <Image source={require('../assets/Images/logo1.png')} style={styles.logo} />
         <Text style={styles.userInfo}>Vivek Jadhav</Text>
         <Text style={styles.userinfo}>vivek@gmail.com</Text>
         <Text style={styles.userinfo}>Test App School 2</Text>

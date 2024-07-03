@@ -11,7 +11,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import {StackNavigationProp} from '@react-navigation/stack';
-import {RootStackParamList} from './types';
+import {RootStackParamList} from '../types/types';
 
 type SingUpProps = StackNavigationProp<RootStackParamList, 'SingUp'>;
 
@@ -70,7 +70,7 @@ const SignUp: React.FC<Props> = ({navigation}) => {
     <SafeAreaView style={styles.container}>
       <View>
         <Image
-          source={require('../Images/logo.jpg')}
+          source={require('../assets/Images/logo.jpg')}
           style={styles.logo}
           resizeMode="contain"
         />

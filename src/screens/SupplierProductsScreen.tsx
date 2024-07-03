@@ -2,8 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet, FlatList, ListRenderItem } from 'react-native';
 import { RouteProp, useRoute } from '@react-navigation/native';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import { RootStackParamList, Product } from './types';
-
+import { RootStackParamList, Product } from '../types/types';
 type RouteParams = RouteProp<RootStackParamList, 'SupplierProducts'>;
 
 const SupplierProductsScreen = () => {

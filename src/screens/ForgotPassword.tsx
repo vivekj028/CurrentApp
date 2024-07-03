@@ -11,7 +11,7 @@ import {
   Alert,
 } from 'react-native';
 import {StackNavigationProp} from '@react-navigation/stack';
-import {RootStackParamList} from './types';
+import {RootStackParamList} from '../types/types';
 
 type ForgotPasswordScreenNavigationProp = StackNavigationProp<
   RootStackParamList,
@@ -54,7 +54,7 @@ const ForgotPassword: React.FC = () => {
     <SafeAreaView style={styles.container}>
       <View>
         <Image
-          source={require('../Images/logo.jpg')}
+          source={require('../assets/Images/logo1.png')}
           style={styles.logo}
           resizeMode="contain"
         />

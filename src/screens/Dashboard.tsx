@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, ScrollView, Image, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { useNavigation, NavigationProp } from '@react-navigation/native';
-import { RootStackParamList, Notification } from './types';
+import { RootStackParamList, Notification } from '../types/types';
 
 const Dashboard: React.FC = () => {
 
@@ -10,50 +10,50 @@ const Dashboard: React.FC = () => {
   const imagesData: Notification[] = [
     {
       title: 'Notification 1',
-      imageUrl: require('../Images/notification.jpg'),
+      imageUrl: require('../assets/Images/notification.jpg'),
       description: 'Description for Notification 1',
       screenName: 'Notification1',
     },
     {
       title: 'Notification 2',
-      imageUrl: require('../Images/notification.jpg'),
+      imageUrl: require('../assets/Images/notification.jpg'),
       description: 'Description for Notification 2',
       screenName: 'Notification2',
     },
     {
       title: 'Notification 3',
-      imageUrl: require('../Images/notification.jpg'),
+      imageUrl: require('../assets/Images/notification.jpg'),
       description: 'Description for Notification 3',
       screenName: 'Notification3',
     },
     {
       title: 'Notification 4',
-      imageUrl: require('../Images/notification.jpg'),
+      imageUrl: require('../assets/Images/notification.jpg'),
       description: 'Description for Notification 4',
     },
     {
       title: 'Notification 5',
-      imageUrl: require('../Images/notification.jpg'),
+      imageUrl: require('../assets/Images/notification.jpg'),
       description: 'Description for Notification 5',
     },
     {
       title: 'Notification 6',
-      imageUrl: require('../Images/notification.jpg'),
+      imageUrl: require('../assets/Images/notification.jpg'),
       description: 'Description for Notification 6',
     },
     {
       title: 'Notification 7',
-      imageUrl: require('../Images/notification.jpg'),
+      imageUrl: require('../assets/Images/notification.jpg'),
       description: 'Description for Notification 7',
     },
     {
       title: 'Notification 8',
-      imageUrl: require('../Images/notification.jpg'),
+      imageUrl: require('../assets/Images/notification.jpg'),
       description: 'Description for Notification 8',
     },
     {
       title: 'Notification 9',
-      imageUrl: require('../Images/notification.jpg'),
+      imageUrl: require('../assets/Images/notification.jpg'),
       description: 'Description for Notification 9',
     },
 

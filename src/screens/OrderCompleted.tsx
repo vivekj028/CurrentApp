@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
-import { RootStackParamList } from './types';
+import { RootStackParamList } from '../types/types';
 import { StackScreenProps } from '@react-navigation/stack';
 
 type OrderCompletedProps = StackScreenProps<RootStackParamList, 'OrderCompleted'>;

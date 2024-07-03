@@ -3,7 +3,7 @@ import { View, StyleSheet } from 'react-native';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import { useNavigation } from '@react-navigation/native';
 import { StackNavigationProp } from '@react-navigation/stack';
-import { RootStackParamList } from './types';
+import { RootStackParamList } from '../types/types';
 
 type CartIconNavigationProp = StackNavigationProp<RootStackParamList, 'CartScreen'>;
 

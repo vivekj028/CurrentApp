@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, Image, StyleSheet, FlatList, TouchableOpacity, Modal } from 'react-native';
 import ImageViewer from 'react-native-image-zoom-viewer';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
-import { RootStackParamList } from './types';
+import { RootStackParamList } from '../types/types';
 
 // interface Product {
 //   id: number;

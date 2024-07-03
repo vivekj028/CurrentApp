@@ -13,7 +13,7 @@ import {Card, IconButton} from 'react-native-paper';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import {useCart} from './CartContext';
 import { StackNavigationProp } from '@react-navigation/stack';
-import { RootStackParamList, CartItem } from './types';
+import { RootStackParamList, CartItem } from '../types/types';
 
 type CartScreenNavigationProp = StackNavigationProp<RootStackParamList, 'Cart'>;
 

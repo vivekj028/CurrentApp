@@ -10,7 +10,7 @@ const SplashScreen = () => {
         backgroundColor: '#F1B143'
         }}>
         <Image 
-          source={require('../Images/logo1.png')}
+          source={require('../assets/Images/logo1.png')}
           style={{
             width: 200,
             height: 200,

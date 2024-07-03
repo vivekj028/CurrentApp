@@ -3,8 +3,7 @@ import { View, Text, StyleSheet, TouchableOpacity, FlatList, ListRenderItem } fr
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import { useNavigation } from '@react-navigation/native';
 import { StackNavigationProp } from '@react-navigation/stack';
-import { RootStackParamList, Supplier } from './types'
-
+import { RootStackParamList, Supplier } from '../types/types';
 type UniformScreenNavigationProp = StackNavigationProp<RootStackParamList, 'Uniform'>;
 
 const suppliers: Supplier[] = [
